@@ -1,4 +1,5 @@
-public class Auxilia :Tropa{
+class Auxilia :Tropa {
+
     constructor(numHombres: Int) : super(numHombres)
 
     override fun diezmar(): String {
